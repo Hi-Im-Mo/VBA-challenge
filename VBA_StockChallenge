@@ -2,7 +2,7 @@ Sub StockChallenge()
 
 For Each ws In Worksheets
 
-    ws.Range("O1") = " "
+
     ws.Range("O2") = "Greatest % Increase"
     ws.Range("O3") = "Greatest % Decrease"
     ws.Range("O4") = "Greatest Total Volume"
